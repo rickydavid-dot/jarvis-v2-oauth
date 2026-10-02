@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informationen zur privaten lokalen Anwendung Jarvis V2 und ihrem Gmail-Lesezugriff.">
+  <title>Jarvis V2</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { max-width: 760px; margin: 0 auto; padding: 48px 24px; line-height: 1.6; }
+    header, footer { color: #667085; }
+    h1, h2 { line-height: 1.2; }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; margin: 28px 0; }
+    a { color: #2563eb; }
+    .card { border: 1px solid #98a2b3; border-radius: 12px; padding: 20px; margin: 24px 0; }
+  </style>
+</head>
+<body>
+  <header>Private lokale Anwendung</header>
+  <main>
+    <h1>Jarvis V2</h1>
+    <p>Jarvis V2 ist ein privat betriebener, lokal ausgeführter persönlicher Assistent. Die Anwendung ist nicht als öffentlicher Dienst vorgesehen.</p>
+
+    <div class="card">
+      <h2>Gmail-Zugriff</h2>
+      <p>Jarvis V2 verwendet ausschließlich den Google-OAuth-Bereich <code>gmail.readonly</code>. Dadurch kann die Anwendung E-Mails und zugehörige Metadaten lesen, aber keine Nachrichten senden, ändern, archivieren oder löschen.</p>
+      <p>Der Zugriff erfolgt nur nach ausdrücklicher Autorisierung durch den Kontoinhaber.</p>
+    </div>
+
+    <nav aria-label="Rechtliche Informationen">
+      <a href="privacy.html">Datenschutzhinweise</a>
+      <a href="terms.html">Nutzungsbedingungen</a>
+      <a href="https://github.com/rickydavid-dot">Kontakt über GitHub</a>
+    </nav>
+  </main>
+  <footer>Stand: 2. Oktober 2026</footer>
+</body>
+</html>
